@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Chat极品堂会员连续订阅说明</title>
+    <style>
+      body {
+        background-color: #fff;
+        color: #000;
+        text-align: center;
+      }
+      #content {
+        margin: 50px auto;
+        max-width: 800px;
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: left;
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <H1>Chat极品堂会员连续订阅说明</H1>
+    <div id="content"></div>
+    <script>
+      var text = `
+1、用户通过付费订阅后可不限次数免费使用Chat极品堂聊天服务。
+2、订阅的金额分别为：
+  按年订阅（1年），价格168元/年；
+  按半年订阅（6个月），价格98元/年；
+  按季度订阅（3个月），价格68元/季度；
+  按月订阅（1个月），价格28元/月；
+  按周订阅（1周），价格12元/周；
+3、确认购买后，您的iTunes账户将被收取费用，订阅将会自动续订，除非在当前订阅结束前至少提前24小时关闭自动续订。您的账户将在当前订阅结束前的最后24小时里被收取续订费用，并确定续订开支。
+4、如需取消订阅，请手动打开苹果手机"设置"-->进入"iTunes Store与 App Store"-->点击"AppleID"，选择"查看ApplelD"，进入"账户设置"页面点击"订阅"，选择ChatbotAl会员项取消订阅即可
+
+请注意：本应用提供的回答仅基于其所存储的知识，并非全面精准。在使用本应用进行医疗咨询时，我们仅提供医学建议，而非医疗服务或治疗。在使用本应用之前，用户必须先咨询医生，最终医疗决策由用户自行负责。本应用提供的信息和服务仅供参考，不构成任何治疗建议。我们不对因使用本应用而导致的任何后果承担责任。
+
+如果您对我们的政策有任何疑问或意见，请通过以下联系方式与我们联系：
+邮件地址：1263448303@qq.com
+我们将尽快回复您的问题和意见，并为您提供必要的支持。`;
+      var contentDiv = document.getElementById("content");
+      contentDiv.innerHTML = text.replace(/\n/g, "<br>");
+    </script>
+  </body>
+</html>
